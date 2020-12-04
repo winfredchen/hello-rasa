@@ -1,6 +1,9 @@
 # hello-rasa
 rasa入门学习, [代码的详细介绍](https://51fhd.com/dev/hello-rasa/)
 
+效果
+![image](./img/image-20201204130901875.png)
+
 ### 案例1：一个最简单的web聊天机器人
 
 **组成**
