@@ -12,18 +12,14 @@ rasa入门学习, [代码的详细介绍](https://51fhd.com/dev/hello-rasa/)
 1. rasa 核心
 2. web 聊天页面
 
-**运行** - 带允许跨域参数
+**运行**
 1. rasa核心
 ```bash
 cd rasa001_basic
-rasa run --cors "*"
+rasa run --cors "*" #带允许跨域参数
 ```
-2. web 聊天页面
-用web服务器打开rasa001_basic/rasa_basic.html
+2. web 聊天页面：用web服务器打开rasa001_basic/rasa_basic.html
 
-#### web聊天页面
-
-1. 参考并依赖[bot-front](https://github.com/botfront/rasa-webchat)做一个html页面
 
 ### 案例2：获取天气聊天机器人
 
@@ -46,16 +42,15 @@ the temperature is 27 degree
 2. custom action - 获取天气
 3. web 聊天页面
 
-**运行** - 带允许跨域参数
+**运行** 
 1. rasa核心
 ```bash
 cd rasa002_weather
-rasa run --cors "*"
+rasa run --cors "*" #带允许跨域参数
 ```
 2. custom action运行
 ```bash
 # 再开一个命令行窗口
 rasa run actions
 ```
-3. web 聊天页面
-用web服务器打开rasa002_weather/rasa_weather.html
+3. web 聊天页面：用web服务器打开rasa002_weather/rasa_weather.html
