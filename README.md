@@ -18,6 +18,7 @@ rasa聊天机器人实例, [代码的详细介绍](https://51fhd.com/dev/hello-r
 1. rasa核心
 ```bash
 cd rasa001_basic
+rasa train
 rasa run --cors "*" #带允许跨域参数
 ```
 2. web 聊天页面：用web服务器打开rasa001_basic/rasa_basic.html
@@ -48,6 +49,7 @@ the temperature is 27 degree
 1. rasa核心
 ```bash
 cd rasa002_weather
+rasa train
 rasa run --cors "*" #带允许跨域参数
 ```
 2. custom action运行
